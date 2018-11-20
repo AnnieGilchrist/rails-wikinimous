@@ -1,0 +1,76 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+  margin: 0;
+}
+.navbar {
+  background-color: #f8f8f8;
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid #e7e7e7;
+  margin: 0;
+}
+.cont {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  .home {
+    color: rgba(50,50,50,0.4);
+    font-size: 20px;
+    text-decoration: none;
+    &:hover {
+    text-decoration: none;
+    color: #333;
+    background-color: transparent !important;
+    }
+  }
+  .new-article {
+    color: rgba(50,50,50,0.4);
+    &:hover {
+    text-decoration: none;
+    color: #333;
+    background-color: transparent !important;
+    }
+  }
+  &:hover {
+    text-decoration: none;
+    color: #333;
+    background-color: transparent !important;
+  }
+}
+.container {
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+article {
+  margin-top: 40px;
+  h1 {
+    color: #5398BE;
+  }
+}
+.form-control.content {
+  height: 200px;
+}

@@ -1,0 +1,16 @@
+<%= form_for(@article) do |f| %>
+  <div class="form-group">
+    <%= f.label :title, "Title:" %>
+    <%= f.text_field :title, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :content, "Content:" %>
+    <%= f.text_field :content, class: 'form-control content' %>
+  </div>
+
+  <%= f.submit class: 'btn btn-primary' %>
+<% end %>
+<br>
+<%= link_to "Back to home", articles_path %>
+
